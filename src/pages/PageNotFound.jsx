@@ -9,7 +9,7 @@ export default function PageNotFound() {
         Oops! The page you’re looking for doesn’t exist. Maybe it was removed or
         the URL is wrong.
       </p>
-      <Link to="/" style={styles.button}>
+      <Link to="/" className="cta">
         Go Back Home
       </Link>
     </div>
@@ -29,16 +29,16 @@ const styles = {
     padding: "0 20px",
   },
   emoji: {
-    fontSize: "5rem",
-    marginBottom: "20px",
+    fontSize: "6rem",
+    marginBottom: "10px",
   },
   title: {
-    fontSize: "2.5rem",
+    fontSize: "4rem",
     fontWeight: "bold",
-    marginBottom: "15px",
+    marginBottom: "10px",
   },
   text: {
-    fontSize: "1.1rem",
+    fontSize: "1.9rem",
     marginBottom: "25px",
     maxWidth: "500px",
   },
