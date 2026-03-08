@@ -24,7 +24,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id],
   );
 
   if (isLoding) return <Spinner />;
