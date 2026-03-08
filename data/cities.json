@@ -1,63 +1,63 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "cityName": "Alexandria",
-      "country": "Egypt",
-      "emoji": "🇪🇬",
-      "date": "2027-12-12T09:24:11.863Z",
-      "notes": "Kan yom gamed wallahi 😀",
-      "position": {
-        "lat": 31.2001,
-        "lng": 29.9187
-      },
-      "id": "14268915"
-    },
-    {
-      "id": "6723",
-      "cityName": "Khartsyzk",
+      "id": "2afc",
+      "cityName": "Berezivka Raion",
       "country": "Ukraine",
       "emoji": "🇺🇦",
-      "date": "2026-03-08T20:12:55.020Z",
+      "date": "2026-03-08T21:50:41.618Z",
       "notes": "",
       "position": {
-        "lat": "48.03401915864286",
-        "lng": "38.23242187500001"
+        "lat": "47.279229002570844",
+        "lng": "30.124511718750004"
+      }
+    },
+    {
+      "id": "4325",
+      "cityName": "Bohodukhivskyi Raion",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2026-03-08T21:51:23.514Z",
+      "notes": "",
+      "position": {
+        "lat": "50.30337575356313",
+        "lng": "35.81542968750001"
+      }
+    },
+    {
+      "id": "9f20",
+      "cityName": "Oleksandriya Raion",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2026-03-08T21:51:25.544Z",
+      "notes": "",
+      "position": {
+        "lat": "48.83579746243093",
+        "lng": "33.83789062500001"
+      }
+    },
+    {
+      "id": "e7c5",
+      "cityName": "Hrodivka",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2026-03-08T21:55:18.178Z",
+      "notes": "",
+      "position": {
+        "lat": "48.3416461723746",
+        "lng": "37.41943359375001"
+      }
+    },
+    {
+      "id": "cb39",
+      "cityName": "Nikopol Raion",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2026-03-08T21:55:21.513Z",
+      "notes": "",
+      "position": {
+        "lat": "47.635783590864854",
+        "lng": "34.36523437500001"
       }
     }
   ]
