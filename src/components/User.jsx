@@ -21,11 +21,3 @@ function User() {
 }
 
 export default User;
-
-/*
-CHALLENGE
-
-
-
-5) Handle logout button by calling `logout()` and navigating back to `/`
-*/

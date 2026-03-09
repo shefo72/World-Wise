@@ -22,7 +22,18 @@
   border-radius: 5px;
 }
 
-/* CSS Modules feature */
 .nav a:global(.active) {
   background-color: var(--color-dark--0);
+}
+
+@media (max-width: 500px) {
+  .nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .nav a:link,
+  .nav a:visited {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
 }

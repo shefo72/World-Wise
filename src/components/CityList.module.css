@@ -4,7 +4,6 @@
   list-style: none;
   overflow-y: scroll;
   overflow-x: hidden;
-
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
@@ -12,4 +11,11 @@
 
 .cityList::-webkit-scrollbar {
   width: 0;
+}
+
+@media (max-width: 900px) {
+  .cityList {
+    height: auto;
+    max-height: 25vh;
+  }
 }

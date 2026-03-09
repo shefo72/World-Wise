@@ -4,9 +4,22 @@
   list-style: none;
   overflow-y: scroll;
   overflow-x: hidden;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
   gap: 1.6rem;
+}
+
+@media (max-width: 900px) {
+  .countryList {
+    height: auto;
+    max-height: 25vh;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .countryList {
+    grid-template-columns: 1fr;
+  }
 }

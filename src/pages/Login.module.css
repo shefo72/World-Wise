@@ -8,19 +8,60 @@
 .form {
   background-color: var(--color-dark--2);
   border-radius: 7px;
-  padding: 2rem 3rem;
+  padding: 2.5rem 3rem;
   width: 100%;
+  max-width: 48rem;
+  margin: 8rem auto;
+
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
-  /* Different from other form */
-  width: 48rem;
-  margin: 8rem auto;
 }
 
 .row {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.6rem;
+}
+
+.row label {
+  font-size: 1.4rem;
+}
+
+.row input {
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.4rem;
+}
+
+/* ===== Tablet ===== */
+
+@media (max-width: 900px) {
+  .login {
+    padding: 2rem 3rem;
+  }
+
+  .form {
+    margin: 6rem auto;
+  }
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 600px) {
+  .login {
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  .form {
+    padding: 2rem;
+    margin: 4rem auto;
+  }
+
+  .row input {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 }

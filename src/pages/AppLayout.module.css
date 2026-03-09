@@ -4,4 +4,13 @@
   overscroll-behavior-y: none;
   display: flex;
   position: relative;
+  gap: 0;
+}
+
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
 }
