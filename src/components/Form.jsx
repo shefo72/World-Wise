@@ -12,7 +12,8 @@ import { Notyf } from "notyf";
 import Button from "./Button";
 import Message from "./Message";
 import Spinner from "./Spinner";
-import { useCities } from "../context/citiesContext";
+// import { useCities } from "../context/citiesContext";
+import { useCities } from "../context/citiesContextLS";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
