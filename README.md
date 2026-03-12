@@ -19,6 +19,14 @@ A global map tracking application that allows users to keep track of their trave
 
 ---
 
+## ⚡ Performance Optimizations
+
+- Implemented **code splitting** using `React.lazy` and `Suspense`.
+- Route-based lazy loading to reduce the **initial bundle size**.
+- Improved application loading performance.
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology                  | Purpose                      |
